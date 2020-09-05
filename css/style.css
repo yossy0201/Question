@@ -18,3 +18,19 @@ h1 {
 .align-right {
   text-align: right;
 }
+
+@media only screen and (max-width: 992px) {
+  .radio-inline+.radio-inline {
+    display: block
+    margin: 0;
+  }
+}
+
+.send-btn {
+  text-align: center;
+}
+
+
+.copy-name {
+  text-align: center;
+}
